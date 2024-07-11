@@ -1,0 +1,147 @@
+.carousel-container {
+    background-color: black;
+  }
+  
+  .single-carousel-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 40px;
+  }
+  
+  .left-component {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: max-content;
+  }
+  
+  .left-component h2 {
+    color: white;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 67px;
+    letter-spacing: 0.4px;
+    font-family: sans-serif;
+  }
+  
+  .second-row {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .second-row span {
+    padding: 5px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-family: sans-serif;
+  }
+  
+  .second-row span:first-child {
+    border: 1px solid #7b7b7b;
+    color: #7b7b7b;
+  }
+  
+  .second-row span:nth-child(2),
+  .second-row span:nth-child(3) {
+    background-color: #7b7b7b;
+    color: black;
+  }
+  
+  .second-row i {
+    color: #7b7b7b;
+    font-size: 20px;
+  }
+  
+  .second-row span:last-child {
+    color: #7b7b7b;
+    font-size: 18px;
+  }
+  
+  .play-button {
+    display: flex;
+    gap: 5px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    background-color: #592e99;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 0.6px;
+    width: max-content;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+  }
+  
+  .image-container figure {
+    margin: 0;
+    width: 900px;
+    height: 450px;
+  }
+  
+  .image-container img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .row-version {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .paragraph {
+    margin: 20px 0;
+    color: #777777;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+  }
+  
+  .slick-dots {
+    position: absolute;
+    top: 420px;
+    left: 5%;
+    transform: translateX(-50%);
+    display: flex !important;
+    justify-content: center;
+  }
+  
+  .slick-dots li {
+    margin: 0 5px;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 12px;
+    color: #ffffff;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #ff6347;
+  }
+  
+  .custom-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
+  
+  .slick-dots li.slick-active .custom-dot {
+    background-color: #592e99;
+  }
+  
